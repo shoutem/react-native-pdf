@@ -12,14 +12,14 @@ A react native PDF view component (cross-platform support)
 * support password protected pdf
 
 ### Installation
-We use [`react-native-fetch-blob`](https://github.com/wkh237/react-native-fetch-blob#installation) to handle file system access in this package,
-So you should install react-native-pdf and react-native-fetch-blob
+We use [`rn-fetch-blob`](https://github.com/joltup/rn-fetch-blob/#installation) to handle file system access in this package,
+So you should install react-native-pdf and rn-fetch-blob
 
 ```bash
-npm install react-native-fetch-blob --save
+npm install rn-fetch-blob --save
 npm install react-native-pdf --save
 
-react-native link react-native-fetch-blob
+react-native link rn-fetch-blob
 react-native link react-native-pdf
 ```
 
@@ -33,7 +33,7 @@ Q2. When running, it shows ```'Pdf' has no propType for native prop RCTPdf.acess
 A2. Your react-native version is too old, please upgrade it to 0.47.0+ see also [`#39`](https://github.com/wonday/react-native-pdf/issues/39)
 
 Q3. When I run the example app I get a white screen / the loading bar isn't progressing on IOS.  
-A3. Check your uri, if you hit a pdf that is hosted on a `http` you will need to add an exception for the server hosting the pdf in the ios `info.plist`. Here is an example : 
+A3. Check your uri, if you hit a pdf that is hosted on a `http` you will need to add an exception for the server hosting the pdf in the ios `info.plist`. Here is an example :
 
 ```
 <key>NSAppTransportSecurity</key>
@@ -132,7 +132,7 @@ v3.0.0
 5. delete cache file when error happened
 
 Known issues  
-1. iOS zooming can not scroll to pinch center 
+1. iOS zooming can not scroll to pinch center
 
 [[more]](https://github.com/wonday/react-native-pdf/releases)
 
