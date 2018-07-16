@@ -30,6 +30,6 @@
         "prop-types": "^15.5.10"
     },
     "peerDependencies": {
-        "rn-fetch-blob": "shoutem/rn-fetch-blob#cc479b50bf17e75e4080b344d7dd04fbdbfc1c65"
+        "rn-fetch-blob": "shoutem/rn-fetch-blob#6af5da3cf1bc1633b0c484b903dc879c1c40a651"
     }
 }
