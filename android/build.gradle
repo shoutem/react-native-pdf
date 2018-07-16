@@ -4,6 +4,7 @@ description = 'react-native-pdf'
 
 buildscript {
     repositories {
+        google()
         jcenter()
     }
 
@@ -24,6 +25,7 @@ android {
 }
 
 repositories {
+    google()
     jcenter()
 }
 
