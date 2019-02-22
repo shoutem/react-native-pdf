@@ -30,6 +30,6 @@
         "prop-types": "^15.5.10"
     },
     "peerDependencies": {
-        "react-native-fetch-blob": "shoutem/react-native-fetch-blob#1caed817c69f0c3b255dd4f65c95d0aa97d0586e"
+        "react-native-fetch-blob": "shoutem/react-native-fetch-blob#a6689ac11d642188674be10406c2770c81cd74d5"
     }
 }
